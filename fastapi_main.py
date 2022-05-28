@@ -12,6 +12,10 @@ async def root():
 async def root():
     return {"message": "demo1"}
 
+@app.get("/demo2")
+async def root():
+    return {"message": "demo2"}
+
 if __name__ == '__main__':
     import uvicorn
 
